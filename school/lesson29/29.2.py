@@ -33,7 +33,7 @@ class Student(Human):
     def hello(self):
         print(f"Student created,{self.name} not slys hello")
         S1.hello()
-        class teacher(Human):
+class teacher(Human):
     def teach(self):
         print(f"{self.name}-teachs,age:{self.age}")
         
